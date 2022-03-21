@@ -1,0 +1,97 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="510" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="30">
+            <item index="0" class="java.lang.String" itemvalue="apscheduler" />
+            <item index="1" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="2" class="java.lang.String" itemvalue="isodate" />
+            <item index="3" class="java.lang.String" itemvalue="django-storages" />
+            <item index="4" class="java.lang.String" itemvalue="kombu" />
+            <item index="5" class="java.lang.String" itemvalue="click-didyoumean" />
+            <item index="6" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="7" class="java.lang.String" itemvalue="celery" />
+            <item index="8" class="java.lang.String" itemvalue="zipp" />
+            <item index="9" class="java.lang.String" itemvalue="lxml" />
+            <item index="10" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="11" class="java.lang.String" itemvalue="billiard" />
+            <item index="12" class="java.lang.String" itemvalue="idna-ssl" />
+            <item index="13" class="java.lang.String" itemvalue="django-compat" />
+            <item index="14" class="java.lang.String" itemvalue="amqp" />
+            <item index="15" class="java.lang.String" itemvalue="django-mathfilters" />
+            <item index="16" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="17" class="java.lang.String" itemvalue="zeep" />
+            <item index="18" class="java.lang.String" itemvalue="attrs" />
+            <item index="19" class="java.lang.String" itemvalue="chardet" />
+            <item index="20" class="java.lang.String" itemvalue="django-crontab" />
+            <item index="21" class="java.lang.String" itemvalue="asyncio" />
+            <item index="22" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="23" class="java.lang.String" itemvalue="requests-file" />
+            <item index="24" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="25" class="java.lang.String" itemvalue="multidict" />
+            <item index="26" class="java.lang.String" itemvalue="yarl" />
+            <item index="27" class="java.lang.String" itemvalue="click-repl" />
+            <item index="28" class="java.lang.String" itemvalue="requests-toolbelt" />
+            <item index="29" class="java.lang.String" itemvalue="products" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="sum" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="PyQt5-stubs==5.13.1.4" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="posts.models.Comment.objects" />
+          <option value="A.blog.routes.blog" />
+          <option value="blog" />
+          <option value="accounts.views.UserDashboard.form_class" />
+          <option value="product.models.Comment.*" />
+          <option value="blog.models.Blog.*" />
+          <option value="contact.models.Message.objects" />
+          <option value="contact.models.Teacher.*" />
+          <option value="product.models.Product.*" />
+          <option value="backend.api.views.*" />
+          <option value="backend.products.models.Product.objects" />
+          <option value="products.models.Product.objects" />
+          <option value="rest_framework.generics.RetrieveAPIView.perform_destroy" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
